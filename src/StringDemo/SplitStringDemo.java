@@ -9,7 +9,8 @@ public class SplitStringDemo {
        String[] sArr =  str.split("a");
 
        for(int i =0; i< sArr.length;i++)
+
            System.out.println(sArr[i]);
 
-    }
+   }
 }
