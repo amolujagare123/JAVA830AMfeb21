@@ -35,7 +35,7 @@ String dateStr1= "23 | June 16  8:34"
         System.out.println(sd0.format(date));
 
 
-        SimpleDateFormat sd1 = new SimpleDateFormat("dd | MMMM yy h:mm");
+        SimpleDateFormat sd1 = new SimpleDateFormat("dd |MMMM yy h:mm");
 
         String dateStr1 = sd1.format(date);
         System.out.println(dateStr1);
