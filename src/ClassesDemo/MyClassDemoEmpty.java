@@ -1,5 +1,5 @@
 package ClassesDemo;
-public class MyClass {
+public class MyClassDemoEmpty {
     int a;
     double d;
     char c;
@@ -13,28 +13,23 @@ public class MyClass {
         System.out.println("str="+str);
     }
 
+
+    MyClassDemoEmpty()
+    {
+        // no boday -> empty contructor
+    }
+
+
     public static void main(String[] args) {
 
-        int a1;
-        a1 = 10 ;
-        System.out.println(a1);
+        MyClassDemoEmpty ob = new MyClassDemoEmpty();
 
-        MyClass ob = new MyClass();
-
-        ob.a =12;
+       /* ob.a =12;
         ob.d = 12.45;
         ob.c = 'g';
-        ob.str = "str";
+        ob.str = "str";*/
 
         ob.display();
-
-       MyClass ob2 = new MyClass();
-       ob2.a = 11;
-       ob2.d =8.9;
-       ob2.c='f';
-       ob2.str="amol";
-
-       ob2.display();
 
     }
 

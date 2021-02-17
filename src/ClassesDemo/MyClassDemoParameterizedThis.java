@@ -1,5 +1,5 @@
 package ClassesDemo;
-public class MyClass {
+public class MyClassDemoParameterizedThis {
     int a;
     double d;
     char c;
@@ -13,29 +13,19 @@ public class MyClass {
         System.out.println("str="+str);
     }
 
+    MyClassDemoParameterizedThis(int a, double d, char c, String str)
+    {
+        this.a = a;
+        this.d = d;
+        this.c = c;
+        this.str = str;
+    }
+    
     public static void main(String[] args) {
 
-        int a1;
-        a1 = 10 ;
-        System.out.println(a1);
-
-        MyClass ob = new MyClass();
-
-        ob.a =12;
-        ob.d = 12.45;
-        ob.c = 'g';
-        ob.str = "str";
+        MyClassDemoParameterizedThis ob = new MyClassDemoParameterizedThis(10,202.1,'f',"amol");
 
         ob.display();
-
-       MyClass ob2 = new MyClass();
-       ob2.a = 11;
-       ob2.d =8.9;
-       ob2.c='f';
-       ob2.str="amol";
-
-       ob2.display();
-
     }
 
 

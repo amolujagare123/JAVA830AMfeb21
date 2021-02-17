@@ -1,5 +1,5 @@
 package ClassesDemo;
-public class MyClass {
+public class MyClassDemoNormal {
     int a;
     double d;
     char c;
@@ -13,28 +13,29 @@ public class MyClass {
         System.out.println("str="+str);
     }
 
+    MyClassDemoNormal()
+    {
+        a =1;
+        d =1.1;
+        c='a';
+        str = "abc";
+    }
+
+
     public static void main(String[] args) {
 
-        int a1;
-        a1 = 10 ;
-        System.out.println(a1);
+        MyClassDemoNormal ob = new MyClassDemoNormal();
 
-        MyClass ob = new MyClass();
+        System.out.println("==== before setting new values =====");
+        ob.display();
+
 
         ob.a =12;
         ob.d = 12.45;
         ob.c = 'g';
         ob.str = "str";
-
+        System.out.println("==== After setting new values =====");
         ob.display();
-
-       MyClass ob2 = new MyClass();
-       ob2.a = 11;
-       ob2.d =8.9;
-       ob2.c='f';
-       ob2.str="amol";
-
-       ob2.display();
 
     }
 
