@@ -21,6 +21,13 @@ public class MyClassDemoParameterized {
         str = str1;
     }
 
+    MyClassDemoParameterized(int a1, double d1)
+    {
+        a = a1;
+        d = d1;
+
+    }
+
     public static void main(String[] args) {
 
         MyClassDemoParameterized ob = new MyClassDemoParameterized(10,202.1,'f',"amol");
