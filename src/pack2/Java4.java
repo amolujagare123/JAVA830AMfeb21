@@ -16,6 +16,11 @@ public class Java4 {
     }
 
     public static void main(String[] args) {
+
+        Java3 ob = new Java3();
+
+      //  ob.c1 = 90;
+
     }
 
 }

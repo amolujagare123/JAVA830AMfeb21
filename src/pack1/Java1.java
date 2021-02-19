@@ -4,7 +4,7 @@ public class Java1 {
 
     public int a1;
     private double d1;
-    char c1;
+    protected char c1;
     String str1;
 
     void display1()
@@ -21,6 +21,8 @@ public class Java1 {
 
         ob.a1 = 10;
         ob.d1 = 1.1;
+        ob.c1 = 'g';
+
         ob.display1();
     }
 

@@ -2,7 +2,7 @@ package pack2;
 
 import pack1.Java1;
 
-public class Java3 {
+public class Java3 extends  Java1{
 
     int a3;
     double d3;
@@ -19,11 +19,15 @@ public class Java3 {
 
     public static void main(String[] args) {
 
-        Java1 obJava3 = new Java1();
-
+        Java1 obJava3 = new Java1(); // parent class object
         obJava3.a1 =90;
-        //obJava3.str1 = "abcd";
-      //  obJava3.display1();
+      //  obJava3.c1 ='d'; // default, now protected
+        // using same class object - not accesible
+
+        Java3 ob = new Java3(); // child class object
+        ob.a1 =89;
+        ob.c1 = 'g'; // default, now protected
+        // using child class object - accesible
 
     }
 
