@@ -7,10 +7,10 @@ public class CastingDemo {
         int  a = 10;
         int  b =3;
 
-        double c =  (double)  a/b; // casting
+        double c =  (double) a/b; // casting
 
         // if you want to store one type of value into another type
-        // we can sating by putting that type into round brackets
+        // we can convert  by putting that type, into round brackets
         // before the value to be assigned
 
         System.out.println("c="+c);
