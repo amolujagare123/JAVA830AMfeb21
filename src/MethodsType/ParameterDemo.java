@@ -1,5 +1,7 @@
 package MethodsType;
 
+import pack2.Java4;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -28,6 +30,15 @@ public class ParameterDemo {
        System.out.println();
 
     }
+
+    void printMyObject(Java4 obj)
+    {
+        System.out.println("a="+obj.a4);
+        System.out.println("d="+obj.d4);
+        System.out.println("c="+obj.c4);
+        System.out.println("str="+obj.str4);
+    }
+
 
     void printTwoDiStringArray(String[][] strArr)
     {
@@ -67,5 +78,14 @@ public class ParameterDemo {
         };
 
         ob.printTwoDiStringArray(sArr);
+
+
+        Java4 java4 = new Java4();
+        java4.a4 = 100;
+        java4.d4 =100.11;
+        java4.c4 ='q';
+        java4.str4 = "abcd";
+
+        ob.printMyObject(java4);
     }
 }
