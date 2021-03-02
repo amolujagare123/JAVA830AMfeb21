@@ -2,7 +2,7 @@ package Abstraction;
 
 public class FinalDemo {
 
-    final int speed = 100;
+   /* final*/ int speed = 100;
 
     void change()
     {
