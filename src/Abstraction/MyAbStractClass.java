@@ -2,7 +2,7 @@ package Abstraction;
 
 public abstract class MyAbStractClass {
      abstract void start();
-     abstract void run();
+    public abstract void run();
      void show()
      {
          System.out.println("inside show");
@@ -15,7 +15,7 @@ class ChildAbStract extends MyAbStractClass
      {
           System.out.println("start");
      }
-     void run()
+     public void run()
      {
           System.out.println("run");
      }

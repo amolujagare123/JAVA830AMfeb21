@@ -1,5 +1,13 @@
 package pack2;
 
+import StaticDemo.Student;
+/*
+import static StaticDemo.Student.college;
+import static StaticDemo.Student.method1;*/
+
+import static StaticDemo.Student.*;
+
+
 public class Java4 {
 
     public int a4;
@@ -20,6 +28,16 @@ public class Java4 {
         Java3 ob = new Java3();
 
       //  ob.c1 = 90;
+
+        method1();
+
+
+        method1();
+
+
+        System.out.println(Student.college);
+
+        System.out.println(college);
 
     }
 
