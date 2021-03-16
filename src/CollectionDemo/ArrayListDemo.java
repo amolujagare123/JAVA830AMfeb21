@@ -1,6 +1,7 @@
 package CollectionDemo;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 
 public class ArrayListDemo {
@@ -20,6 +21,9 @@ public class ArrayListDemo {
         al.add(true);
 
         System.out.println(al);
+
+        Collections.sort(al);
+        System.out.println("al="+al);
 
         System.out.println(al.size());
 

@@ -1,6 +1,7 @@
 package CollectionDemo;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 
 public class ArrayListDemo2 {
@@ -19,6 +20,10 @@ public class ArrayListDemo2 {
         al.add("amol");
         al.add(true);
 */
+        System.out.println("al="+al);
+
+
+        Collections.sort(al);
         System.out.println("al="+al);
 
 
