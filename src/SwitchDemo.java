@@ -6,7 +6,7 @@ public class SwitchDemo {
         int b =5;
         int c;
 
-        String operation = "ad";
+        String operation = "add";
 
         switch (operation)
         {
@@ -30,11 +30,6 @@ public class SwitchDemo {
             default:
                 System.out.println("wrong choice");
                 break;
-
         }
-
-
-
     }
-
 }

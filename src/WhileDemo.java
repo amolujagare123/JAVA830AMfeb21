@@ -10,7 +10,5 @@ public class WhileDemo {
             i=i++; // increment
         }
 
-
-
     }
 }
